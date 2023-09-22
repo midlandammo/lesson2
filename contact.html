@@ -1,15 +1,40 @@
 <link rel="stylesheet" href="style.css">
+  <nav>
+  <ul>
+  <li><a href="mytown.html">My Town</li>
+  <li><a href="mygroup.html">My Group</li>
+  <li><a href="index.html">Index</li>
+  <li><a href="contact.html">Contact Me</li>
+  </ul>
+  </nav>
 <form>
 <label for="fname">First Name: </label>
 <br>
 <input type="text" id="fname" name="fname"><br>
 <label for="lname">Last Name: </label>
 <br>
-<input type="text" id="lname" name="lname"><br><br>
-
-
-
-
+<input type="text" id="lname" name="lname">
+<br><br>
+<label for="gender">Gender: </label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<br><br>
+<label for="location">Location</label><br>
+  <select id="location" name="location">
+<option value="Midlothian">Midlothian</option> 
+<option value="West Lothian">West Lothian</option>
+<option value="East Lothian">East Lothian</option>
+<option value="Edinburgh">Edinburgh</option>
+  </select>
+<br><br>
+<label for="message">Message: </label><br>
+  <textarea id="message" name="message" rows="4" cols="50">
+  </textarea>
+<br><br>
+<input type="submit" value="Submit">
+</form>
 
 
 
