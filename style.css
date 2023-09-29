@@ -40,3 +40,14 @@ nav ul li:hover{
 nav ul li:hover a{
   color:red;
 }
+body{
+background-color:rgba(23,7,242,1);
+}
+
+@media screen and (max-width: 992px){body{
+background-color:rgba(23,7,242,0.5);  
+}}
+
+@media screen and (max-width: 600px){body{
+background-color:rgba(23,7,242,0.1);
+}}
