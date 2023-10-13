@@ -1,9 +1,12 @@
-/*Colour scheme is Background colour of rgba 23,7,242 for background, div1 and 2 color is #726980, and h1 colour is #ac7339*/
+/*Colour scheme is Background colour of rgba 23,7,242 for background, div1 and 2 color is #726980, h1 colour is #ac7339, p1 and li are #fff and nav background is #EBE8E4*/
 .div1{background-color:#726980;}
 .div2{background-color:#726980;}
-h1{color:#ac7339;}
-p1{color:#fff;}
-li{color:#fff;}
+h1{color:#ac7339;
+  font-family:Arial, Helvetica, sans-serif ;}
+p1{color:#fff;
+  font-family: sans-serif;}
+li{color:#fff;
+  font-family: sans-serif;}
 
 footer{
   background-color:#262626;
